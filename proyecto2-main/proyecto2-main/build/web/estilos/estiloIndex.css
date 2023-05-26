@@ -1,0 +1,74 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos de la barra de navegación */
+
+#barra {
+  background-color: #333;
+  padding: 10px;
+}
+
+#barra ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#barra ul li {
+  margin-right: 20px;
+}
+
+#barra ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+#barra ul li a:hover {
+  color: #ff5500;
+}
+
+/* Estilos del gráfico */
+
+#MiGrafica {
+  margin-top: 40px;
+}
+
+/* Estilos responsivos */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  #barra ul li a {
+    font-size: 14px;
+  }
+}
